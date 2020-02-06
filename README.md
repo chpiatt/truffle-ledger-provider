@@ -1,11 +1,11 @@
-# truffle-ledger-provider
+# @blocklytics/truffle-ledger-provider
 
 Ledger Wallet-enabled Web3 provider. Use it to sign transactions with Ledger Nano S or Ledger Blue.
 
 ## Install
 
 ```sh
-$ npm i truffle-ledger-provider -S
+$ npm i @blocklytics/truffle-ledger-provider -S
 ```
 
 ## General Usage
@@ -18,7 +18,7 @@ Before using Ledger Wallet-enabled Web3 provider, you must change your Ledger Ap
 - Browser Support: No
 
 ```js
-const LedgerWalletProvider = require('truffle-ledger-provider');
+const LedgerWalletProvider = require('@blocklytics/truffle-ledger-provider');
 
 const ledgerOptions = {
   networkId: 1, // mainnet
@@ -46,7 +46,7 @@ You can easily use this within a Truffle configuration. For instance:
 truffle.js
 
 ```js
-const LedgerWalletProvider = require('truffle-ledger-provider');
+const LedgerWalletProvider = require('@blocklytics/truffle-ledger-provider');
 
 const INFURA_APIKEY = '...'; // set your Infura API key
 const ledgerOptions = {}; // use default options
@@ -86,4 +86,4 @@ module.exports = {
 ```
 
 ## Contributors
-- Peter
+- Chris Piatt (@chpiatt)

@@ -1,5 +1,5 @@
 {
-  "name": "truffle-ledger-provider",
+  "name": "@blocklytics/truffle-ledger-provider",
   "version": "1.0.1",
   "description": "Ledger Wallet-enabled Web3 provider",
   "keywords": [
@@ -9,27 +9,26 @@
     "provider",
     "wallet"
   ],
-  "homepage": "https://github.com/petertulala/truffle-ledger-provider#readme",
+  "homepage": "https://github.com/pyython/truffle-ledger-provider#readme",
   "bugs": {
-    "url": "https://github.com/petertulala/truffle-ledger-provider/issues"
+    "url": "https://github.com/pyython/truffle-ledger-provider/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/petertulala/truffle-ledger-provider.git"
+    "url": "git@github.com:pyython/truffle-ledger-provider.git"
   },
   "license": "MIT",
-  "author": "Peter Tulala <peter.tulala@gmail.com>",
+  "author": "Chris Piatt <chris@blocklytics.org>",
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@ledgerhq/hw-transport-node-hid": "^4.24.0",
-    "@ledgerhq/web3-subprovider": "^4.31.0",
-    "ethereumjs-wallet": "^0.6.2",
-    "web3": "^0.20.6",
-    "web3-provider-engine": "^14.1.0"
+    "@ledgerhq/hw-transport-node-hid": "^5.8.0",
+    "@ledgerhq/web3-subprovider": "^5.8.0",
+    "web3": "^1.2.0",
+    "web3-provider-engine": "^15.0.0"
   },
   "devDependencies": {
     "@atomix/eslint-config": "^6.4.0",
